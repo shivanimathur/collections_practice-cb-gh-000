@@ -35,7 +35,7 @@ end
 
 def kesha_maker(array)
   array.each_with_index do |e, i|
-    e[i] = "$"    
+    e[i] = "$"
   end
 end
 
