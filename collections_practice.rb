@@ -22,6 +22,7 @@ end
 
 def reverse_array(array)
   i = 0
+  size = array.size
   while i < array.size
     temp = array[i]
     array[i] = array[size - 1 - i]
