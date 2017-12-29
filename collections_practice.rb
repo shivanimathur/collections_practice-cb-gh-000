@@ -50,5 +50,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-
+  array.each_with_index do |e, i|
+    if i != 1
+      e<<"s"
+    end
+  end
 end
