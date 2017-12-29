@@ -17,7 +17,10 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-
+  i = 0
+  while i < array.size
+    
+  end
 end
 
 def reverse_array(array)
@@ -25,7 +28,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-
+  array
 end
 
 def find_a(array)
