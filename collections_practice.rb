@@ -34,7 +34,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array[2] = "$"
+  array.each_with_index do |e, i|
+    e[i] = "$"    
+  end
 end
 
 def find_a(array)
