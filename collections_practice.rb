@@ -19,7 +19,12 @@ end
 def swap_elements(array)
   i = 0
   while i < array.size
-    
+    if i == 1
+      temp = array[1]
+      array[1] = array[2]
+      array [2] = temp
+    end
+    i += 1
   end
 end
 
