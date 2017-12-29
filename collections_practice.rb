@@ -28,6 +28,7 @@ def reverse_array(array)
     array[size - 1 -i] = temp
     i += 1
   end
+  array
 end
 
 def kesha_maker(array)
